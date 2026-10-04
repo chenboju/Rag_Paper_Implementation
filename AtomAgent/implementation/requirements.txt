@@ -1,0 +1,21 @@
+# --- LangChain & LangGraph ---
+langchain>=0.2.0
+langchain-community
+langchain-openai
+langchain-huggingface  # 用於載入本地 HuggingFace Embedding
+langgraph
+chromadb               # 向量資料庫 (支援本地儲存)
+
+# --- General Utils ---
+python-dotenv          # 讀取 .env
+pydantic
+numpy
+pandas
+matplotlib
+atomman                # 原代碼中的依賴
+pdfkit                 # 原代碼中的依賴 (需另外安裝 wkhtmltopdf)
+markdown2              # 原代碼中的依賴
+
+# --- Local Inference Optimization (Optional for 4090) ---
+accelerate             # HuggingFace加速庫
+sentence-transformers  # Embedding 基礎庫
